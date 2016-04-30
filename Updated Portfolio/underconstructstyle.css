@@ -1,0 +1,33 @@
+body {
+    background-image: url("Images/construct3.jpg");
+    font-family: fantasy;
+}
+.image-size {
+    height: 200x;
+    width: 500x;
+}
+.main-text {
+    color: whitesmoke;
+}
+.small-text {
+    font-size: 35px;
+    font-family: fantasy;
+    font-style: italic;
+}
+.head-pad {
+    padding-top: 60px;
+}
+.header-option {
+    float: right;
+}
+a:hover img {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}

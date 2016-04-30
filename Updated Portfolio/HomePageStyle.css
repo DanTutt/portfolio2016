@@ -1,0 +1,79 @@
+body {
+    background-image: url("Images/blackfade.jpg");
+    font-family: fantasy;
+    color: whitesmoke;
+}
+.img-profile {
+    height: 300px;
+    width: 700px;
+}
+.header-option {
+    float: right;
+}
+/*This is for my contact page*/
+.form-padding {
+    padding-top: 100px;
+}
+.contact-bg {
+    background-image: url("Images/darkbrick.jpg");
+}
+.warning-note {
+    background: rgba(255, 255, 0, 0.41);
+}
+.foot-text {
+    color: whitesmoke;
+}
+.contact-icons {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+div .contact-icons a img {
+    -webkit-transition: -webkit-transform 0.3s ease;
+    -moz-transition: -moz-transform 0.3s ease;
+    -o-transition: -o-transform 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+div .contact-icons a:hover img {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    3
+
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+body#resume {
+    background-image: url("InteractiveResume/lightblue.jpg");
+    background-repeat: no-repeat;
+    background-size: 2600px;
+    font-family: fantasy;
+    color: black;
+}
+img#profilePic {
+    border-radius: 30px;
+
+}
+div .proPic a img {
+    -webkit-transition: -webkit-transform 0.8s ease;
+    -moz-transition: -moz-transform 0.8s ease;
+    -o-transition: -o-transform 0.8s ease;
+    transition: transform 0.8s ease;
+}
+
+div .proPic a:hover img {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}

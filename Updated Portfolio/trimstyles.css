@@ -1,0 +1,14 @@
+body {
+    font-family: fantasy;
+    background-image: url("Images/whitewoodbg.jpg");
+}
+.heading-style {
+    padding-top: 30px;
+}
+.box-border {
+    border: double rgba(0, 47, 67, 0.30);
+    padding-top: 10px;
+}
+.header-option {
+    float: right;
+}

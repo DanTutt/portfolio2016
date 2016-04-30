@@ -1,0 +1,18 @@
+body {
+    font-family: fantasy;
+    background-image: url("Images/tileable-dark-wood-textures-8.jpg");
+    color: whitesmoke;
+}
+.dim-head {
+    color: rgba(245, 245, 245, 0.61);
+}
+.heading-style {
+    padding-top: 30px;
+}
+.box-border {
+    border: double rgba(0, 47, 67, 0.30);
+    padding-top: 10px;
+}
+.header-option {
+    float: right;
+}

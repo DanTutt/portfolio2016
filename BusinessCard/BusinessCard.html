@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div {
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+            height: 280px;
+            background-image: url("businesscard2.jpg");
+            background-size: contain;
+            font-family: fantasy;
+            color: whitesmoke;
+        }
+        h1#header {
+            float: right;
+            padding-right: 20px;
+        }
+        h2#name {
+            padding-top: 240px;
+            padding-left: 20px;
+         };
+    </style>
+</head>
+<body>
+<div>
+    <h1 id="header">
+    </h1>
+    <h2 id="name">
+    </h2>
+
+    <script>
+        var businessCard = {
+            type: "card",
+            name: "Dan Tuttle",
+            title: "Integration Specialist"
+
+
+        };
+        document.getElementById("header").innerHTML = businessCard.title;
+        document.getElementById("name").innerHTML = businessCard.name;
+        iframe.style.margin="center";
+    </script>
+</div>
+
+</body>
+</html>

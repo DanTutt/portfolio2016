@@ -1,0 +1,25 @@
+body {
+    background-image: url("Images/greyback.jpg");
+    font-family: fantasy;
+}
+.background-2 {
+    background-color: darkgray;
+}
+.image-size {
+    height: 200x;
+    width: 500x;
+}
+.main-text {
+    color: whitesmoke;
+}
+.small-text {
+    font-size: 35px;
+    font-family: fantasy;
+    font-style: italic;
+}
+.head-pad {
+    padding-top: 30px;
+}
+.header-option {
+    float: right;
+}

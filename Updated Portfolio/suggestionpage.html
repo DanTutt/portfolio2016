@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Make a Suggestion</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="HomePageStyle.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body class="contact-bg">
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Suggestion Form</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<form class="container form-padding">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header">Suggestion</legend>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="What would you like to suggest? Don't be shy, I'm not easily offended :)" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg" formmethod="post" formenctype="text/plain" formaction="mailto:dan_tuttle@msn.com?subject=I'd like to make a suggestion.">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</form>
+
+<style>
+    .header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+</style>
+
+
+<hr>
+
+<!-- Footer -->
+<footer class="foot-text">
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Copyright &copy; www.teamtutt.com 2014</p>
+        </div>
+    </div>
+    <!-- /.row -->
+    <br>
+    <br>
+    <div class="warning-note">
+        **NOTE: This form will be submitted automatically once we learn Javascript. Right now, it just opens an email that users must send.
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="footer-prop">
+        <a href="HomePage.html">&#8656 Return to Homepage</a>
+    </div>
+</footer>
+
+</div>
+<!-- /.container -->
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
